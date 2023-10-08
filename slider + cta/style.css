@@ -1,0 +1,78 @@
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.threeblocks{
+    width: 100%;
+    height: 50rem;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.threeblockstitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: rgb(54, 54, 54);
+}
+
+.threeblocksframe{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    
+}
+
+.threeblocks-frames{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.ctaframe{
+    width: 100%;
+    height: 40rem;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctainnerframe{
+    width: 80%;
+    height: 80%;
+    background: #d6d5d5;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.ctainnerframectatext{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    color: rgb(54, 54, 54);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 10rem;
+    padding-bottom: 4rem;
+}
