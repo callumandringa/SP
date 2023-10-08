@@ -27,9 +27,24 @@ body{
 
 }
 
+
+.naviegatie{
+    height: 18rem;
+    width: 50rem;
+    border: 0.2rem solid black;
+    display:flex ;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+
 .nav{
     list-style: none;
     color: white;
     font-size: 3rem;
+   
 }
+
 
