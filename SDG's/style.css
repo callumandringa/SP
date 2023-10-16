@@ -1,0 +1,82 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+header{
+    width: 100%;
+    height: 20rem;
+}
+
+.SDG-BlockMain{
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.SDG-BlockSection{
+    width: 50%;
+    height: 100%;
+    background: green;
+}
+
+.SDG-BlockSection-H1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    padding-left: 6rem;
+    padding-top: 4rem;
+}
+
+.SDG-BlockSection-IMG{
+    width: 30rem;
+    height: 30rem;
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.SDG-BlockSection-CTA{
+    width: 88%;
+    height: 20rem;
+    background: red;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.SDG-BlockSection2{
+    width: 50%;
+    height: 100%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SDG-BlockText{
+    width: 50%;
+    height: 50%;
+    margin-top: 12rem;
+}
+
+.SDG-BlockText-H1-1{
+    font-size: 4rem;
+}
+
+.SDG-BlockText-P-1{
+    font-size: 2rem;
+}
+
+.SDG-BlockText-H1-2{
+    font-size: 4rem;
+}
+
+.SDG-BlockText-P-2{
+    font-size: 2rem;
+}
