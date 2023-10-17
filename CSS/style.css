@@ -17,23 +17,29 @@ body{
 
 .header{
     height: 20rem;
-    background: red;
+    background:#eee;
     display: flex;
+    justify-content: space-between;
+    padding-right: 8rem;
+    padding-left: 6rem;
+    background: rgba(64, 164, 189, 0.3);
+
+
 }
 
 .logo{
     height: 20rem;
-    width: 25rem;
+    width: 20rem;
 
 }
 
 
 .naviegatie{
     height: 18rem;
-    width: 50rem;
-    border: 0.2rem solid black;
+    width: 100rem;
+    border-left: 0.1rem solid black;
     display:flex ;
-    gap: 2rem;
+    gap: 8rem;
     align-items: center;
     justify-content: center;
     margin: 1rem;
@@ -42,9 +48,92 @@ body{
 
 .nav{
     list-style: none;
-    color: white;
+    color: black;
     font-size: 3rem;
    
 }
+
+.nav:hover{
+    color: rgb(8, 60, 157);
+    cursor: pointer;
+}
+
+
+.threeblocks{
+    width: 100%;
+    height: 50rem;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.threeblockstitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: rgb(54, 54, 54);
+}
+
+.threeblocksframe{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    
+}
+
+.threeblocks-frames{
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.ctaframe{
+    width: 100%;
+    height: 40rem;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctainnerframe{
+    width: 80%;
+    height: 80%;
+    background: #d6d5d5;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.ctainnerframectatext{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    color: rgb(54, 54, 54);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 10rem;
+    padding-bottom: 4rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.uitlegframe{
+    width: 100%;
+    height: 50vh;
+    background: red;
+}
+
+
 
 
