@@ -9,10 +9,49 @@ html{
 
 }
 
-header{
-    width: 100%;
+.header{
     height: 20rem;
+    background:#eee;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8rem;
+    padding-left: 6rem;
+    background: rgba(64, 164, 189, 0.3);
+
+
 }
+
+.logo{
+    height: 20rem;
+    width: 20rem;
+
+}
+
+
+.naviegatie{
+    height: 18rem;
+    width: 100rem;
+    border-left: 0.1rem solid black;
+    display:flex ;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+
+.nav{
+    list-style: none;
+    color: black;
+    font-size: 3rem;
+   
+}
+
+.nav:hover{
+    color: rgb(8, 60, 157);
+    cursor: pointer;
+}
+
 
 .SDG-BlockMain{
     width: 100%;
