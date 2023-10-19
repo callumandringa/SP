@@ -37,7 +37,7 @@ services:
       MYSQL_DATABASE: newsletters
       MYSQL_USER: db_user
       MYSQL_PASSWORD: mijn_p@ss#
-      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
+      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!
     ports:
       - 3309:3306
     volumes:
