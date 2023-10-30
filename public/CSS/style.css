@@ -107,19 +107,21 @@ body{
     height: 80%;
     background: #d6d5d5;
     border: 1px solid black;
-    position: relative;
     border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ctamaintekst{
+    
 }
 
 .ctainnerframectatext{
     font-family: 'Rubik', sans-serif;
     font-size: 3rem;
     color: rgb(54, 54, 54);
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding-right: 10rem;
-    padding-bottom: 4rem;
+    
 }
 
 img{
@@ -129,8 +131,24 @@ img{
 
 .uitlegframe{
     width: 100%;
-    height: 50vh;
-    background: red;
+    height: 70vh;
+    background: #eee;
+    padding: 4rem   ;
+}
+
+.uitlegimg{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    float: right;
+
+    
+}
+
+.uitlegtekst{
+    width: 100rem;
+    height: 75%;
+    font-size: 1.5rem;
 }
 
 * {box-sizing:border-box}
