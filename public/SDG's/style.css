@@ -6,7 +6,6 @@
 
 html{
     font-size: 62.5%;
-
 }
 
 .header{
@@ -16,9 +15,7 @@ html{
     justify-content: space-between;
     padding-right: 8rem;
     padding-left: 6rem;
-    background: rgba(64, 164, 189, 0.3);
-
-
+    background: #0d4074;
 }
 
 .logo{
@@ -26,7 +23,6 @@ html{
     width: 20rem;
 
 }
-
 
 .naviegatie{
     height: 18rem;
@@ -37,14 +33,12 @@ html{
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    
 }
 
 .nav{
     list-style: none;
     color: black;
     font-size: 3rem;
-   
 }
 
 .nav:hover{
@@ -58,12 +52,16 @@ html{
     height: 70rem;
     display: flex;
     gap: 2rem;
+    background: linear-gradient( to bottom, #0d4074 75%, #eee);
 }
 
 .SDG-BlockSection{
     width: 50%;
     height: 100%;
-    background: green;
+    background: #eee;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 .SDG-BlockSection-H1{
@@ -91,11 +89,14 @@ html{
 .SDG-BlockSection2{
     width: 50%;
     height: 100%;
-    background: green;
+    background: #eee;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
 }
 
 .SDG-BlockText{
