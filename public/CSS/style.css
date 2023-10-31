@@ -15,20 +15,18 @@ body{
 }
 
 .header{
-    height: 20rem;
-    background:#eee;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 8rem;
-    padding-left: 6rem;
-    background: rgba(64, 164, 189, 0.3);
-
-
+  height: 20rem;
+  background:#eee;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 8rem;
+  padding-left: 6rem;
+  background: #0d4074;
 }
 
 .logo{
-    height: 20rem;
-    width: 20rem;
+  height: 20rem;
+  width: 20rem;
 
 }
 
@@ -91,6 +89,7 @@ body{
     width: 30rem;
     height: 30rem;
     object-fit: cover;
+    
 }
 
 .ctaframe{
@@ -100,6 +99,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+ 
+   
 }
 
 .ctainnerframe{
@@ -109,9 +110,15 @@ body{
     border: 1px solid black;
     border-radius: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: end;
-    float: right;
+
+    background-image:url("../IMG/rec-sdg.png");
+    background-position: center;
+    background-size: cover;
+    background-size: 122rem 40rem;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -123,6 +130,7 @@ body{
     font-family: 'Rubik', sans-serif;
     font-size: 3rem;
     color: rgb(54, 54, 54);
+    padding: 2rem;
     
 }
 
@@ -130,6 +138,13 @@ img{
     width: 100%;
     height: 100%;
 }
+
+
+
+
+
+
+
 
 .uitlegframe{
     width: 100%;
@@ -143,14 +158,21 @@ img{
     height: 80%;
     display: flex;
     float: right;
+    margin-right: 10rem;
 
     
 }
 
 .uitlegtekst{
-    width: 100rem;
+    width: 80rem;
     height: 75%;
     font-size: 1.5rem;
+    margin-left: 10rem;
+   
+}
+
+.h2{
+  font-size: 5rem;
 }
 
 * {box-sizing:border-box}
@@ -162,6 +184,11 @@ img{
   margin: auto;
 display: flex;
 
+}
+
+.myslides.fade{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .threeblocksframe{
@@ -263,8 +290,15 @@ display: flex;
 
 
 
-@media screen and (max-width:1041px) {
-  
+@media screen and (max-width:881px) {
+  .header{
+    width: 110rem;
+  }
+
+  .mySlides{
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 
