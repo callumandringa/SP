@@ -110,6 +110,8 @@ body{
     border-radius: 2rem;
     display: flex;
     justify-content: center;
+    align-items: end;
+    float: right;
 
 }
 
@@ -159,7 +161,12 @@ img{
   position: relative;
   margin: auto;
 display: flex;
-flex-wrap: wrap;
+
+}
+
+.threeblocksframe{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Hide the images by default */
@@ -167,6 +174,13 @@ flex-wrap: wrap;
     display: flex;
     gap: 5%;
   display: none;
+  flex-wrap: wrap;
+}
+
+
+.threeblocks{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .mySlides > img{
@@ -245,6 +259,12 @@ flex-wrap: wrap;
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+
+@media screen and (max-width:1041px) {
+  
 }
 
 
