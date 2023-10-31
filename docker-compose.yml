@@ -37,7 +37,7 @@ services:
       MYSQL_DATABASE: newsletters
       MYSQL_USER: db_user
       MYSQL_PASSWORD: mijn_p@ss#
-      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!
+      MYSQL_ROOT_PASSWORD: 4dy5qwtrsag#!sad
     ports:
       - 3309:3306
     volumes:
@@ -55,10 +55,10 @@ services:
     image: phpmyadmin/phpmyadmin
     environment:
       PMA_HOST: mariadb
-      PMA_USER: db_user
-      PMA_PASSWORD: mijn_p@ss#
+      PMA_USER: root
+      PMA_PASSWORD: 4dy5qwtrsag#!sad
     ports:
-      - "8088:80"
+      - 8088:80
 
 # Volumes
 volumes:
