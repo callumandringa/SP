@@ -15,20 +15,18 @@ body{
 }
 
 .header{
-    height: 20rem;
-    background:#eee;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 8rem;
-    padding-left: 6rem;
-    background: rgba(64, 164, 189, 0.3);
-
-
+  height: 20rem;
+  background:#eee;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 8rem;
+  padding-left: 6rem;
+  background: #0d4074;
 }
 
 .logo{
-    height: 20rem;
-    width: 20rem;
+  height: 20rem;
+  width: 20rem;
 
 }
 
