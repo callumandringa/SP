@@ -9,8 +9,11 @@ html{
 }
 
 body{
-    background:#0d4074;
     height: 100rem;
+}
+
+a:visited{
+    color: blue;
 }
 
 .header{
@@ -26,7 +29,6 @@ body{
 .logo{
     height: 20rem;
     width: 20rem;
-
 }
 
 .naviegatie{
@@ -42,27 +44,21 @@ body{
 
 .nav{
     list-style: none;
-    color: black;
+    color: white;
     font-size: 3rem;
 }
 
-.nav:hover{
-    color: rgb(8, 60, 157);
-    cursor: pointer;
-}
-
-
 .SDG-BlockMain{
     width: 100%;
-    height: 70rem;
+    height: 80rem;
     display: flex;
     gap: 2rem;
-    background:#0d4074;
+    margin-top: 10rem;
 }
 
 .SDG-BlockSection{
     width: 50%;
-    height: 100%;
+    height: 80%;
     background: #eee;
     border-radius: 2rem;
     margin-top: 3rem;
@@ -86,14 +82,13 @@ body{
 .SDG-BlockSection-CTA{
     width: 88%;
     height: 20rem;
-    background: red;
     margin-left: 5rem;
     margin-top: 2rem;
 }
 
 .SDG-BlockSection2{
     width: 50%;
-    height: 100%;
+    height: 80%;
     background: #eee;
     display: flex;
     justify-content: center;
@@ -124,4 +119,39 @@ body{
 
 .SDG-BlockText-P-2{
     font-size: 2rem;
+}
+
+footer{
+    width: 100%;
+    height: 20rem;
+    background: #0d4074;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Footer-Blocks{
+    width: 30rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.Footer-Blocks-A{
+    font-size: 3rem;
+}
+
+footer > img{
+    height: 90%;
+}
+
+.Footer-Blocks > img {
+    width: 100%;
 }
