@@ -286,9 +286,17 @@ display: flex;
     width: 110rem;
   }
 
-  .mySlides{
-    display: flex;
-    flex-wrap: wrap;
+  .threeblocks{
+    width: 110REM;
+  }
+  .ctaframe{
+    width: 110rem;
+  }
+  .uitlegframe{
+    width: 110rem;
+  }
+  footer{
+    width: 110rem;
   }
 }
 
