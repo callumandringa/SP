@@ -175,6 +175,7 @@ img{
   margin: auto;
 display: flex;
 
+
 }
 
 .myslides.fade{
@@ -191,8 +192,7 @@ display: flex;
 .mySlides {
     display: flex;
     gap: 5%;
-  display: none;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
@@ -296,6 +296,10 @@ display: flex;
     width: 110rem;
   }
   footer{
+    width: 110rem;
+  }
+
+  body{
     width: 110rem;
   }
 }
