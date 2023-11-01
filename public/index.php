@@ -56,7 +56,7 @@ require_once( SOURCE_PATH . 'database.php');
                     include( "../source/views/home.php");
             }
             ?>
-
+             </section>
         </section>
 
     <section class="ctaframe">
