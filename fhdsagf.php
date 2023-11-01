@@ -1,22 +1,3 @@
-<?php
-// haal al mijn instellingen op
-require_once('../source/config.php');
-
-// haal de database verbinding op
-require_once( SOURCE_PATH . 'database.php');
-?>
-<!DOCTYPE html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BO NVVN</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/704f604c3d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <header class="header">
         <figure>
@@ -28,13 +9,13 @@ require_once( SOURCE_PATH . 'database.php');
             <li class="nav">fdsafdsfdsafsd</li>
         </ul>
     </header>
-
-
-    
     <section class="threeblocks">
         <h2 class="threeblockstitle">De 17 SDG's</h2>
         <section class="threeblocksframe">
-        <?php
+               
+
+
+            <?php
 
             // handle incomming request
             // controleer de url, is er misschien een categorie geselecteerd?
@@ -57,7 +38,9 @@ require_once( SOURCE_PATH . 'database.php');
             }
             ?>
 
-        </section>
+ 
+ 
+      
 
     <section class="ctaframe">
         <figure class="ctainnerframe">

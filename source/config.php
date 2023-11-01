@@ -18,6 +18,6 @@ define('IMAGE_URL', SITE_URL. 'images/');
 
 // database connection settings
 define('MYSQL_HOST', 'mariadb');
-define('MYSQL_DATABASE', 'bakery');
-define('MYSQL_USER', 'db_user');
-define('MYSQL_PASSWORD', 'mijn_p@ss#');
+define('MYSQL_DATABASE', 'BO');
+define('MYSQL_USER', 'root');
+define('MYSQL_PASSWORD', '4dy5qwtrsag#!sad');
