@@ -1,5 +1,3 @@
-
-
 *, *::before, *::after{
   box-sizing: border-box;
   padding: 0;
@@ -8,11 +6,23 @@
 
 html{
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body{
   height: 100vh;
   width: 100%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:visited{
+  color: white;
+  text-decoration: none;
 }
 
 .header{
@@ -317,7 +327,7 @@ to {opacity: 1}
 }
 
 .threeblocks{
-  width: 110REM;
+  width: 110rem;
 }
 .ctaframe{
   width: 110rem;
@@ -334,7 +344,25 @@ body{
 }
 }
 
+.articleh2php{
+  color: black;
+}
 
+.articlepphp{
+
+}
+
+.articleimagephp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.imagephp{
+  width: 15rem;
+  height: 15rem;
+}
 
 
 

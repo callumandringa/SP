@@ -14,7 +14,6 @@ require_once( SOURCE_PATH . 'database.php');
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/704f604c3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,9 +22,9 @@ require_once( SOURCE_PATH . 'database.php');
             <img src="IMG/NVVN-favicon copy.png" alt="" class="logo">
         </figure>
         <ul class="naviegatie">
-            <li class="nav">fdasfsda</li>
-            <li class="nav">fdsafssdafas</li>
-            <li class="nav">fdsafdsfdsafsd</li>
+            <li class="nav"><a href="SDGOne.php">SDG Pagina</a></li>
+            <li class="nav"><a href="#Game">The Game</a></li>
+            <li class="nav"><a href="#Info">Informatie</a></li>
         </ul>
     </header>
 
@@ -59,7 +58,7 @@ require_once( SOURCE_PATH . 'database.php');
              </section>
         </section>
 
-    <section class="ctaframe">
+    <section  id="Game" class="ctaframe">
         <figure class="ctainnerframe">
             <h2 class="ctamaintekst"></h2>
             <a class="ctainnerframectatext">CTA</a>
@@ -70,7 +69,7 @@ require_once( SOURCE_PATH . 'database.php');
     <section class="uitlegframe">
         <img class="uitlegimg" src="IMG/sdg 1.png" alt="">
         <div class="uitlegtekst">
-            <h2 class="h2">SDG</h1>
+            <h2 id="Info" class="h2">SDG</h1>
               <br>
             <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Delectus totam iusto dicta ipsa at sequi, 
@@ -84,7 +83,7 @@ require_once( SOURCE_PATH . 'database.php');
 
     <footer>
       <div class="Footer-Blocks">Voor vragen email naar:</div>
-      <div class="Footer-Blocks">Contact<br><a class="Footer-Blocks-A" href="https://www.google.com/">info@nvvn.nl</a></div>
+      <div class="Footer-Blocks">info@nvvn.nl</div>
       <img src="img/NVVN-favicon copy.png" alt="">
       <div class="Footer-Blocks">Gemaakt door:</div>
       <div class="Footer-Blocks"><img src="img/SP_Logo.png" alt=""></div>
