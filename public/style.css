@@ -413,11 +413,9 @@ object-fit: contain;
   border: 0.3rem solid #000;
   color: #ffffff;
   padding: 1rem;
-  
   height: 10rem;
   width: 15rem;
   float: left;
-  
   margin-bottom: 1rem;
   border-radius: 10px;
  text-decoration: none;
@@ -428,6 +426,4 @@ object-fit: contain;
   width: 10rem;
   height: 10rem;
   object-fit: absolute;
-
-  
 }
