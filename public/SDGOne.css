@@ -71,15 +71,24 @@
         height: 40rem;
         background: #eee;
         border-radius: 2rem;
-        padding: 2rem;
+        padding: 1rem;
     }
 
 
 
+    .articleh2php{
+        font-size: 3rem;
+    }
 
+    .articleimagephp{
+        width: 45%;
+        height: 90%;
+        float: right;
+    }
 
-
-
+    .articlepphp{
+        font-size: 2rem;
+    }
 
     footer{
       width: 100%;
