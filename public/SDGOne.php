@@ -18,29 +18,34 @@ require_once( SOURCE_PATH . 'database.php');
     
 
 <?php
+    // voorbeeld van één element:
+$ID = ( int ) $_GET['id'];
 
-// handle incomming request
-// controleer de url, is er misschien een categorie geselecteerd?
-$url = explode('/', trim($_SERVER['REQUEST_URI']));
-// remove empty values 
-$url = array_values(array_filter($url));
-// and set a default
-if (empty($url[0])) {
-    $url[] = 'homeinfo';
-}
+/* create a statement */
+$sql = 'SELECT * 
+        FROM opdrachten
+        WHERE ID=?
+        ORDER BY Title';
 
-switch ($url[0]) {
-    case 'sdg':
-        define('SDG_SLUG', htmlspecialchars($url[1]));
-        include(VIEWS_PATH . 'infocard.php');
-        break;
-    case 'homeinfo':
-    default:
-        include(VIEWS_PATH . 'homeinfo.php');
-}
+/* create a prepared statement */
+$stmt = $connection->prepare($sql);
+
+/* Bind the slug */
+$stmt->bind_param('i', $ID);
+
+/* execute query */
+$stmt->execute();
+
+/* bind result variables */
+$result = $stmt->get_result();
+
+/* Nu wil ik mijn data in een array plaatsen */
+$sdgItem = mysqli_fetch_assoc($result);
 ?>
 
-
+<h2 class="articleh2php" ><?= $sdgItem["Title"]?></h2>
+<p class="articlepphp" ><?= $sdgItem["Beschrijving"]?></p>
+<img class="articleimagephp" src="/img/<?= $sdgItem["image"]?>" alt="image">
 
 </div>
 
